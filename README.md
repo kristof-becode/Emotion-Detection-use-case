@@ -1,13 +1,30 @@
-The objective of this use case is to ba able to detect micro expressions in the faces of people.
-A first step in approaching this problem is to detect emotions in face images.
+## Skyebase_concrete_cracks
 
+## Table of contents
+* [Project Goal](#general-info)
+* [Approach](#general-info)
+* [Background information](#general-info)
+* [Microexpression examples](#general-info)
+* [Results](#results)
+* [Technologies](#technologies)
+* [Content](#content)
 
-Background information:
+## Project Goal
+We try to detect facial microexpressions.
+
+## Approach
+
+- 1) trying to detect emotions in faces
+
+## Background information
+
 A microexpression is a very brief, involuntary facial expression humans make when experiencing
 an emotion. They usually last 0.5–4.0 seconds and cannot be faked.
 
 Microexpressions were first discovered by researchers Haggard and Isaacs.
 Dr. Paul Ekman popularized the term “microexpression” and greatly expanded the research.
+
+## Microexpressions examples
 
 Microexpressions you can try to detect:
 
@@ -61,6 +78,29 @@ Lower lip pouts out.
 #Contempt
 (t’s the only one of the 7 universal microexpressions that is asymmetrical.)
 One side of the mouth is raised.
+
+
+## Results
+
+
+## Technologies
+
+
+	
+## Content
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
