@@ -1,4 +1,4 @@
-## Skyebase_concrete_cracks
+## Bagaar Microexpression Detection
 
 ## Table of contents
 * [Project Goal](#general-info)
