@@ -85,8 +85,9 @@ Contempt ->
 
 
 ## Results
-- was able to detect neutral , happy, emotions trained on Stevens face in realtime using the webcam, model had accuracy of 75%
-- trained the MobileNetV2 with the FER dataset from Kaggle, 66% accuracy, tested on Stevens face, could not detect happy emotions
+- was able to detect neutral , happy, emotions trained on Stevens face in realtime using the webcam, model had accuracy of 75% *
+- trained the MobileNetV2 with the FER dataset from Kaggle, 66% accuracy, tested on Stevens face, could not detect happy emotions **
+- detecting faces & emotions on images with DeepFace ***
 
 
 ## Technologies
@@ -98,8 +99,10 @@ Contempt ->
 
 	
 ## Content
-- detect_emotions_realtime
-
+- detect_emotions_realtime_1.py *
+- detect_emotions_realtime_2.py **
+- detect_faces_images.py ***
+- detect_emotions_images.py ***
 
 
 
