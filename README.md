@@ -1,5 +1,7 @@
 ## Bagaar Microexpression Detection
 
+- Steven, Robin, Seppe, Kristof
+
 ## Table of contents
 * [Project Goal](#general-info)
 * [Approach](#general-info)
