@@ -13,8 +13,10 @@
 We try to detect facial microexpressions.
 
 ## Approach
-
-- 1) trying to detect emotions in faces
+- trying to detect faces (with deepFace)
+- trying to detect emotions in faces, training own CNN & MobilNetV2)
+- trying to train a model using face landmarks
+- ...
 
 ## Background information
 
