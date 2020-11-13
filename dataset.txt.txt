@@ -1,0 +1,13 @@
+download FER dataset from kaggle
+
+put them in folder 'dataset'
+
+subdivide folders into  7 emotions:
+
+anger
+disgust
+fear
+neutral
+happy
+sad
+surprise
