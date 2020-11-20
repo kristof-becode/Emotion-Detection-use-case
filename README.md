@@ -16,7 +16,7 @@ We try to detect facial microexpressions.
 
 ## Approach
 - trying to detect faces (with deepFace)
-- trying to detect emotions in faces, training own CNN & MobilNetV2)
+- trying to detect emotions in faces, training own CNN & MobilNetV2
 - trying to train a model using face landmarks
 - trying Azure and Amazon Rekognition Facial Emotion Rekognition APIs
 - trying Adversarial FER to protect against FER models
@@ -99,6 +99,11 @@ Contempt ->
 - Tensorflow
 - CNN
 - MobileNetV2
+- Adverserial Networks
+- Facial landmarks
+- Streamlit
+- Microsoft Azure
+- ...
 
 
 ## To use
@@ -121,3 +126,23 @@ EmotionRecognition.ipynb
 ```
 
 To generate adversarial FER images, try the jupyter notebook `Adversarial_FER.ipynb` in the `Adversarial_FER` folder
+
+
+To detect emotions in realtime
+```
+all the file-names that start with: realtime_emotion_recognition....
+
+(the end of the file-name describes which dataset was used to train the model)
+```
+
+To detect emotions from what is verbally said in a video
+```
+mp4_to_emotion.py
+```
+
+To detect emotions from photos
+```
+face_and_emotion_detection_images_realtime.py
+```
+
+
