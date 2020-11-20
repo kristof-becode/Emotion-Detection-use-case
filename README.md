@@ -18,7 +18,8 @@ We try to detect facial microexpressions.
 - trying to detect faces (with deepFace)
 - trying to detect emotions in faces, training own CNN & MobilNetV2)
 - trying to train a model using face landmarks
-- ...
+- trying Azure and Amazon Rekognition Facial Emotion Rekognition APIs
+- trying Adversarial FER to protect against FER models
 
 ## Background information
 
@@ -93,31 +94,30 @@ Contempt ->
 ## Technologies
 - openCV
 - DeepFace
+- EmoPy
 - pytorch
+- Tensorflow
 - CNN
 - MobileNetV2
 
-	
-## Content
-- detect_emotions_realtime_1.py *
-- detect_emotions_realtime_2.py **
-- detect_faces_images.py ***
-- detect_emotions_images.py ***
 
+## To use
 
+To build basic CNN model trained on the FER2013 dataset use `Emo_model.py` located in the `Emo architecture CNN` folder.
+```
+cd EmoarchitectureCNN
+python Emo_model.py
+```
 
+To build a faster & lightweight FER model for real-time detection use `detect_emotion_video.py`  This will open a webcam and give FER overlaid on the webcam stream.
+```
+python detect_emotion_video.py
+```
 
+To detect facial landmarks, try the jupyter notebook `EmotionRecognition.ipynb` in the `FacialLandmarks` folder.
+```
+cd FacialLandmarks
+EmotionRecognition.ipynb
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+To generate adversarial FER images, try the jupyter notebook `Adversarial_FER.ipynb` in the `Adversarial_FER` folder
