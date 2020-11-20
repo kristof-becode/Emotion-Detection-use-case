@@ -131,12 +131,8 @@ To generate adversarial FER images, try the jupyter notebook `Adversarial_FER.ip
 To detect emotions in realtime
 ```
 all the file-names that start with: realtime_emotion_recognition....
-(the end of the file-name describes which dataset was used to train the model)
-```
 
-To detect emotions from what is verbally said in a video
-```
-mp4_to_emotion.py
+(the end of the file-name describes which dataset was used to train the model)
 ```
 
 To detect emotions from what is verbally said in a video
