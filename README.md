@@ -1,6 +1,17 @@
-## Bagaar Microexpression Detection
+## Emotion Detection: a use case ..about detecting microexpressions
 
-- Steven, Robin, Seppe, Kristof
+This is a use case collaboration of Steven, Robin, Seppe and Kristof
+
+## Summary
+This repo is the result of a collaborative work on a use case with the objective of investigating the possibility of detecting micro-expressions in images and videos. Implementations of these findings could prove useful in HR interviewing of possible job candidates by providing extra information to evaluate and analyse.
+
+Applying machine learning to this problem proved to be very challenging as there are very little (video)datasets to train a model to recognize and classify micro-expressions. These datasets do exist, i.e. SMIC and CASME, but are restricted to research purposes and limited in size.
+Therefore we decided to take a more traditional approach and build several Keras CNN models to detect emotions trained on images in the Fer+ dataset. 
+As these have severe limitations when used to classify emotions in images and video we decided to investigate Landmark segmentation to track micro-expressions. Again, with lack of good training data it was difficult to take this approach further. 
+An adverserial approach was tested to try and fool the Keras models as they mostly labeled images as sad or angry.
+We also explored and played around with some API's such as Amazon Rekognition, Microsoft Azure and some popular Python libraries such as DeepFace which uses several recent pre-trained models.
+
+
 
 ## Table of contents
 * [Project Goal](#general-info)
