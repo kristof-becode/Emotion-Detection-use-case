@@ -20,7 +20,7 @@ Lastly a very simple Streamlit dashboard was created to present some of our resu
 * [Microexpressions](#microexpressions)
 * [Technologies used](#technologies-used)
 * [Approaches](#approaches)
-* [Data: FER+](#data:-fer+)
+* [Data: FER+](#data-fer)
 * [EmoPy architecture CNN](#emopy-architecture-cnn)
 * [MobileNetV2 CNN](#mobilenetv2-cnn])
 * [Facial landmark segementation](#facial-landmark-segementation)
@@ -100,7 +100,7 @@ A Keras model was created using the pretrained MobileNetV2 with transfer learnin
 The accuracy:
 
 <p align="center">
-  <img src="https://github.com/kristof-becode/Emotion-Detection-use-case/blob/master/img/StevensAcc.png" width=40% >
+  <img src="https://github.com/kristof-becode/Emotion-Detection-use-case/blob/master/img/StevensAcc.png" width=50% >
 </p>
 
 
@@ -132,7 +132,7 @@ An adverserial Keras model using FGSM was implemented to investigate fooling our
 
 ### Streamlit dashboard
 
-A simple implementation of the Keras EmoPy inspired model in Streamlit. Images and videos can be uploaded to classify with the according emotion. OpenCV was used for image/video handling and to return a frames with emotion labeling.
+A simple implementation of the Keras EmoPy inspired model in Streamlit. Images and videos can be uploaded to classify with the according emotion. OpenCV was used for image/video handling and to return frames with emotion labeling.
 
 <p align="center">
   <img src="https://github.com/kristof-becode/Emotion-Detection-use-case/blob/master/img/Video%20strmlt.png" width=85% >
