@@ -46,7 +46,7 @@ A few examples:
 |Lower eyelid may show wrinkles or be tense |Mouth is open and lips are slightly tensed or stretched and drawn back |
 
 ### Technologies used
-- OpenCV for image and video handling
+- OpenCV for image and video handling and Haarcascades to detect faces
 - DeepFace
 - Tensorflow Keras
 - MobileNetV2
@@ -132,7 +132,7 @@ An adverserial Keras model using FGSM was implemented to investigate fooling our
 
 ### Streamlit dashboard
 
-A simple implementation of the Keras EmoPy inspired model in Streamlit. Images and videos can be uploaded to classify with the according emotion. OpenCV was used for image/video handling and to return frames with emotion labeling.
+A simple implementation of the Keras EmoPy inspired model in Streamlit. Images and videos can be uploaded to classify with the according emotion. OpenCV was used for image/video handling and to return frames with emotion labeling.Faces are detected using OpenCV Haarcascades.
 
 <p align="center">
   <img src="https://github.com/kristof-becode/Emotion-Detection-use-case/blob/master/img/Video%20strmlt.png" width=85% >
