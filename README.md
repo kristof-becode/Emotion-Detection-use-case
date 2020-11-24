@@ -100,7 +100,7 @@ A Keras model was created using the pretrained MobileNetV2 with transfer learnin
 The accuracy:
 
 <p align="center">
-  <img src="https://github.com/kristof-becode/Emotion-Detection-use-case/blob/master/img/StevensAcc.png" width=50% >
+  <img src="https://github.com/kristof-becode/Emotion-Detection-use-case/blob/master/img/StevensAcc.png" width=45% >
 </p>
 
 
