@@ -132,7 +132,7 @@ An adverserial Keras model using FGSM was implemented to investigate fooling our
 
 ### Streamlit dashboard
 
-A simple implementation of the Keras EmoPy inspired model in Streamlit. Images and videos can be uploaded to classify with the according emotion. OpenCV was used for image/video handling and to return frames with emotion labeling.Faces are detected using OpenCV Haarcascades.
+A simple implementation of the Keras EmoPy inspired model in Streamlit. Images and videos can be uploaded to classify with the according emotion. OpenCV was used for image/video handling and to return frames with emotion labeling. Faces are detected using OpenCV Haarcascades.
 
 <p align="center">
   <img src="https://github.com/kristof-becode/Emotion-Detection-use-case/blob/master/img/Video%20strmlt.png" width=85% >
