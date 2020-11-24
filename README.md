@@ -74,6 +74,7 @@ Here are some examples of the FER vs FER+ labels extracted from the abovemention
 </p>
 
 You can find all necessary information on FER+ and how to generate it in this repo: https://github.com/microsoft/FERPlus
+
 The original FER data set can be found here: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
 ### EmoPy architecture CNN
